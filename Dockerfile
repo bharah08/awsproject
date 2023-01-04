@@ -1,3 +1,3 @@
 FROM tomcat:latest
-ADD ./target/*.war /usr/local/tomcat/webapps/
+ADD .\target\webapp.war \usr\local\tomcat\webapps\
 
